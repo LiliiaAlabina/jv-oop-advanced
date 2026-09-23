@@ -10,7 +10,7 @@ public class HelloWorld {
             } else {
                 figures[i] = randomFigure.getDefaultFigure();
             }
-            figures[i].toDraw();
+            figures[i].draw();
         }
     }
 }
